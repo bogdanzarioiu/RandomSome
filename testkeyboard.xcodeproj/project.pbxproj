@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B53E02F7251DF12F00244943 /* RandomUsernameAndPasswdGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53E02F6251DF12F00244943 /* RandomUsernameAndPasswdGenerator.swift */; };
+		B53E02F9251E000800244943 /* adjectives.txt in Resources */ = {isa = PBXBuildFile; fileRef = B53E02F8251E000800244943 /* adjectives.txt */; };
+		B53E02FB251E001400244943 /* nouns.txt in Resources */ = {isa = PBXBuildFile; fileRef = B53E02FA251E001400244943 /* nouns.txt */; };
+		B53E02FD251E001E00244943 /* numbers.txt in Resources */ = {isa = PBXBuildFile; fileRef = B53E02FC251E001E00244943 /* numbers.txt */; };
 		B5E378EE24E70F640079D71E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E378ED24E70F640079D71E /* AppDelegate.swift */; };
 		B5E378F024E70F640079D71E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E378EF24E70F640079D71E /* SceneDelegate.swift */; };
 		B5E378F224E70F640079D71E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E378F124E70F640079D71E /* ContentView.swift */; };
 		B5E378F424E70F670079D71E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5E378F324E70F670079D71E /* Assets.xcassets */; };
 		B5E378F724E70F670079D71E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5E378F624E70F670079D71E /* Preview Assets.xcassets */; };
 		B5E378FA24E70F670079D71E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E378F824E70F670079D71E /* LaunchScreen.storyboard */; };
+		B5E3790224E72DE90079D71E /* RandomNumberGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E3790124E72DE90079D71E /* RandomNumberGenerator.swift */; };
+		B5E3790624E741970079D71E /* RandomNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E3790524E741970079D71E /* RandomNumbers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B53E02F6251DF12F00244943 /* RandomUsernameAndPasswdGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUsernameAndPasswdGenerator.swift; sourceTree = "<group>"; };
+		B53E02F8251E000800244943 /* adjectives.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = adjectives.txt; sourceTree = "<group>"; };
+		B53E02FA251E001400244943 /* nouns.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nouns.txt; sourceTree = "<group>"; };
+		B53E02FC251E001E00244943 /* numbers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = numbers.txt; sourceTree = "<group>"; };
 		B5E378EA24E70F640079D71E /* testkeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testkeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E378ED24E70F640079D71E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5E378EF24E70F640079D71E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,8 @@
 		B5E378F624E70F670079D71E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B5E378F924E70F670079D71E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5E378FB24E70F680079D71E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5E3790124E72DE90079D71E /* RandomNumberGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomNumberGenerator.swift; sourceTree = "<group>"; };
+		B5E3790524E741970079D71E /* RandomNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomNumbers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,12 @@
 				B5E378ED24E70F640079D71E /* AppDelegate.swift */,
 				B5E378EF24E70F640079D71E /* SceneDelegate.swift */,
 				B5E378F124E70F640079D71E /* ContentView.swift */,
+				B5E3790124E72DE90079D71E /* RandomNumberGenerator.swift */,
+				B5E3790524E741970079D71E /* RandomNumbers.swift */,
+				B53E02F6251DF12F00244943 /* RandomUsernameAndPasswdGenerator.swift */,
+				B53E02F8251E000800244943 /* adjectives.txt */,
+				B53E02FA251E001400244943 /* nouns.txt */,
+				B53E02FC251E001E00244943 /* numbers.txt */,
 				B5E378F324E70F670079D71E /* Assets.xcassets */,
 				B5E378F824E70F670079D71E /* LaunchScreen.storyboard */,
 				B5E378FB24E70F680079D71E /* Info.plist */,
@@ -135,7 +153,10 @@
 			files = (
 				B5E378FA24E70F670079D71E /* LaunchScreen.storyboard in Resources */,
 				B5E378F724E70F670079D71E /* Preview Assets.xcassets in Resources */,
+				B53E02FB251E001400244943 /* nouns.txt in Resources */,
+				B53E02F9251E000800244943 /* adjectives.txt in Resources */,
 				B5E378F424E70F670079D71E /* Assets.xcassets in Resources */,
+				B53E02FD251E001E00244943 /* numbers.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +170,9 @@
 				B5E378EE24E70F640079D71E /* AppDelegate.swift in Sources */,
 				B5E378F024E70F640079D71E /* SceneDelegate.swift in Sources */,
 				B5E378F224E70F640079D71E /* ContentView.swift in Sources */,
+				B5E3790624E741970079D71E /* RandomNumbers.swift in Sources */,
+				B53E02F7251DF12F00244943 /* RandomUsernameAndPasswdGenerator.swift in Sources */,
+				B5E3790224E72DE90079D71E /* RandomNumberGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.BogdanZarioiu.testkeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -316,7 +340,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.BogdanZarioiu.testkeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
