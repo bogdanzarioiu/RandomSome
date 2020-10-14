@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:testkeyboard.xcodeproj">
+      location = "self:/Users/merisor/Desktop/100DaysOfSwiftUI/testkeyboard/RandomSome.xcodeproj">
    </FileRef>
 </Workspace>

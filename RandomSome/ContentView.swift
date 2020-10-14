@@ -31,7 +31,7 @@ struct ContentView: View {
             VStack {
                 VStack(alignment: .leading, spacing: 0) {
                     
-                    Text("Choose a range")
+                    Text("Choose a range to generate random numbers")
                         .font(.footnote)
                         .foregroundColor(Color("chooseRangeColor"))
                         .padding()
